@@ -1,0 +1,15 @@
+services:
+  tedge:
+    build:
+      dockerfile: Dockerfile
+      context: "."
+    read_only: true
+    
+    volumes:
+      - $PWD/arm64:/data
+    command: ["/bin/sleep", "infinity"]
+    tmpfs:
+      - /run
+      - /run/lock
+      - /var
+      - /tmp
