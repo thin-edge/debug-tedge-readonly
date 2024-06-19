@@ -100,6 +100,8 @@ On startup, only one `software_list` command should be created.
 
 **Environment (please complete the following information):**
 
+|Property|Value|
+|--------|-----|
 |OS [incl. version]|`Alpine Linux v3.18`|
 |Hardware [incl. revision]|`container`|
 |System-Architecture|`Linux 0e1925ccd1a0 6.5.0-41-generic #41-Ubuntu SMP PREEMPT_DYNAMIC Mon May 20 22:58:57 UTC 2024 aarch64 GNU/Linux`|
