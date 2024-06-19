@@ -93,14 +93,18 @@ It also currently relies on a `aarch64/arm64` host to run the example (though on
 **Expected behavior**
 <!-- A clear and concise description of what you expected to happen. -->
 
+On startup, only one `software_list` command should be created.
+
 **Screenshots**
 <!-- If applicable, add screenshots to help explain your problem. -->
 
 **Environment (please complete the following information):**
- - OS [incl. version]
- - Hardware [incl. revision]
- - System-Architecture [e.g. result of "uname -a"]
- - thin-edge.io version [e.g. 0.1.0]
+
+|OS [incl. version]|`Alpine Linux v3.18`|
+|Hardware [incl. revision]|`container`|
+|System-Architecture|`Linux 0e1925ccd1a0 6.5.0-41-generic #41-Ubuntu SMP PREEMPT_DYNAMIC Mon May 20 22:58:57 UTC 2024 aarch64 GNU/Linux`|
+|thin-edge.io version|`tedge 1.1.2~127+g39857ac`|
+
 
 **Additional context**
 <!-- Add any other context about the problem here. -->
