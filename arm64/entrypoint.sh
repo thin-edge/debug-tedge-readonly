@@ -28,9 +28,15 @@ tedge_mapper_c8y() {
     /data/bin/tedge-mapper --config-dir=/data/etc/tedge c8y "$@"
 }
 
+send_message() {
+    tedge mqtt pub -q 1 -r te/device/main///cmd/software_list/local-1234 '{"status":"init"}'    
+}
+
 clear_state() {
     rm -rf /data/etc/tedge/.agent
     rm -rf /data/etc/tedge/.tedge-mapper-c8y
+    rm -rf /tmp/nano*
+    rm -f /data/etc/mosquitto.db
 }
 
 
