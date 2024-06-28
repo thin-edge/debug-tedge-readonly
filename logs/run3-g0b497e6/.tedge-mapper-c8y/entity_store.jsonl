@@ -1,0 +1,5 @@
+{"version":"1.0"}
+{"topic":{"name":"te/device/main///twin/c8y_Agent"},"payload":"{\"name\":\"thin-edge.io\",\"url\":\"https://thin-edge.io\",\"version\":\"1.1.2~144+g0b497e6\"}","qos":1,"retain":true}
+{"topic":{"name":"te/device/main/service/tedge-agent"},"payload":"{\"@parent\":\"device/main//\",\"@type\":\"service\",\"type\":\"service\"}","qos":1,"retain":true}
+{"topic":{"name":"te/device/main/service/tedge-mapper-c8y"},"payload":"{\"@parent\":\"device/main//\",\"@type\":\"service\",\"type\":\"service\"}","qos":1,"retain":true}
+{"topic":{"name":"te/device/main/service/tedge-mapper-bridge-c8y"},"payload":"{\"@id\":\"tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y\",\"@parent\":\"device/main//\",\"@type\":\"service\",\"name\":\"tedge-mapper-bridge-c8y\",\"type\":\"service\"}","qos":1,"retain":true}

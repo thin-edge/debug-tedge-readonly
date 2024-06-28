@@ -1,0 +1,540 @@
+2024-06-28T06:57:56.382356713Z  INFO tedge_agent::agent: tedge-agent starting
+2024-06-28T06:57:56.384142496Z  INFO sm-agent: tedge_agent::agent: Starting tedge-agent v1.1.2~144+g0b497e6
+2024-06-28T06:57:56.390212299Z  INFO Runtime: Started    
+2024-06-28T06:57:56.394666505Z  INFO sm-agent: tedge_config_manager::config: Using the configuration from /data/etc/tedge/plugins/tedge-configuration-plugin.toml    
+2024-06-28T06:57:56.398552148Z  INFO sm-agent: log_manager::config: Using the configuration from /data/etc/tedge/plugins/tedge-log-plugin.toml    
+2024-06-28T06:57:56.400268465Z  INFO sm-agent: tedge_agent::agent: Running as a main device, starting tedge_to_te_converter and File Transfer Service
+2024-06-28T06:57:56.40041969Z  INFO sm-agent: HTTP Server: File transfer service has HTTPS disabled (configured in `http.cert_path`/`http.key_path`) and certificate authentication disabled (configured in `http.ca_path`)
+2024-06-28T06:57:56.400517368Z  INFO Runtime: Running TedgetoTeConverter-0    
+2024-06-28T06:57:56.400547538Z  INFO Runtime: Running HttpFileTransferServer-1    
+2024-06-28T06:57:56.400554747Z  INFO Runtime: Running FileCacheActor-2    
+2024-06-28T06:57:56.400558622Z  INFO Runtime: Running Signal-Handler-3    
+2024-06-28T06:57:56.400681844Z  INFO sm-agent: MQTT sub: te/device/main///cmd/+/+
+2024-06-28T06:57:56.40068747Z  INFO sm-agent: MQTT sub: te/device/main/service/tedge-agent/cmd/health/check
+2024-06-28T06:57:56.400689012Z  INFO sm-agent: MQTT sub: tedge/measurements
+2024-06-28T06:57:56.40069022Z  INFO sm-agent: MQTT sub: tedge/measurements/+
+2024-06-28T06:57:56.400691387Z  INFO sm-agent: MQTT sub: tedge/events/+
+2024-06-28T06:57:56.400692512Z  INFO sm-agent: MQTT sub: tedge/events/+/+
+2024-06-28T06:57:56.400693637Z  INFO sm-agent: MQTT sub: tedge/alarms/+/+
+2024-06-28T06:57:56.400694721Z  INFO sm-agent: MQTT sub: tedge/alarms/+/+/+
+2024-06-28T06:57:56.400695846Z  INFO sm-agent: MQTT sub: te/+/+/+/+/cmd/config_update/+
+2024-06-28T06:57:56.40069843Z  WARN sm-agent: MQTT sub: ignoring overlapping subscription to te/device/main///cmd/health/check
+2024-06-28T06:57:56.402142341Z  WARN sm-agent: tedge_agent::state_repository::state: Cannot use "/data/tedge/agent" to store tedge-agent state: No such file or directory (os error 2)    
+2024-06-28T06:57:56.402158051Z  INFO sm-agent: tedge_agent::state_repository::state: Use "/data/etc/tedge/.agent/restart-current-operation" to store tedge-agent restart-current-operation state    
+2024-06-28T06:57:56.402165302Z  INFO Runtime: Running MQTT-4    
+2024-06-28T06:57:56.402172178Z  INFO Runtime: Running FsWatcher-5    
+2024-06-28T06:57:56.402175095Z  INFO Runtime: Running Downloader-6    
+2024-06-28T06:57:56.402177595Z  INFO Runtime: Running Uploader-7    
+2024-06-28T06:57:56.402337696Z  INFO Runtime: Running ConfigManager-8    
+2024-06-28T06:57:56.402355323Z  INFO Runtime: Running LogManager-9    
+2024-06-28T06:57:56.402358532Z  INFO Runtime: Running RestartManagerActor-10    
+2024-06-28T06:57:56.40268236Z  INFO mqtt_channel::connection: MQTT connecting to broker: host=127.0.0.1:1883, session_name=Some("tedge-agent#te/device/main//")    
+2024-06-28T06:57:56.403520537Z  INFO tedge_config_manager::config: Using the configuration from /data/etc/tedge/plugins/tedge-configuration-plugin.toml    
+2024-06-28T06:57:56.403517495Z  WARN sm-agent: tedge_agent::state_repository::state: Cannot use "/data/tedge/agent" to store tedge-agent state: No such file or directory (os error 2)    
+2024-06-28T06:57:56.404961698Z  INFO sm-agent: tedge_agent::state_repository::state: Use "/data/etc/tedge/.agent/software-current-operation" to store tedge-agent software-current-operation state    
+2024-06-28T06:57:56.403609255Z  INFO tedge_log_manager::actor: Reloading supported log types    
+2024-06-28T06:57:56.405119757Z  INFO log_manager::config: Using the configuration from /data/etc/tedge/plugins/tedge-log-plugin.toml    
+2024-06-28T06:57:56.405134009Z  INFO Runtime: Running SoftwareManagerActor-11    
+2024-06-28T06:57:56.406097908Z  WARN sm-agent: tedge_agent::state_repository::state: Cannot use "/data/tedge/agent" to store tedge-agent state: No such file or directory (os error 2)    
+2024-06-28T06:57:56.406145664Z  INFO sm-agent: tedge_agent::state_repository::state: Use "/data/etc/tedge/.agent/workflows" to store tedge-agent workflows state    
+2024-06-28T06:57:56.407422806Z  INFO Runtime: Running Script-12    
+2024-06-28T06:57:56.407441058Z  INFO Runtime: Running WorkflowActor-13    
+2024-06-28T06:57:56.407445976Z  INFO Runtime: Running HealthMonitorActor-14    
+2024-06-28T06:57:56.407765511Z  INFO mqtt_channel::connection: MQTT connection established    
+2024-06-28T06:57:56.410309671Z ERROR tedge_agent::operation_workflows::actor: Fail to reload pending command requests from /data/etc/tedge/.agent/workflows due to: Could not read state from file `/data/etc/tedge/.agent/workflows`: No such file or directory (os error 2)    
+2024-06-28T06:57:56.41240853Z  INFO plugin_sm::plugin_manager: Default plugin type: Not configured
+2024-06-28T06:57:56.412429491Z  WARN tedge_agent::software_manager::actor: Couldn't load plugins from /data/etc/tedge/sm-plugins
+2024-06-28T06:57:59.776534806Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:57:59.785056828Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:57:59.785695565Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z    
+2024-06-28T06:57:59.786176785Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z    
+2024-06-28T06:57:59.786807812Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z    
+2024-06-28T06:57:59.787668532Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z    
+2024-06-28T06:57:59.789121484Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z    
+2024-06-28T06:57:59.789584785Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z    
+2024-06-28T06:57:59.789756304Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z    
+2024-06-28T06:57:59.789839396Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z    
+2024-06-28T06:57:59.802814368Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:57:59.816055326Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:57:59.816456162Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z    
+2024-06-28T06:57:59.817094858Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z    
+2024-06-28T06:57:59.819273431Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z    
+2024-06-28T06:57:59.820133567Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z    
+2024-06-28T06:57:59.820341674Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z    
+2024-06-28T06:57:59.820788973Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z    
+2024-06-28T06:57:59.82097641Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z    
+2024-06-28T06:57:59.821073463Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z    
+2024-06-28T06:57:59.833046032Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:57:59.846186146Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:57:59.846654198Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z    
+2024-06-28T06:57:59.847287768Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z    
+2024-06-28T06:57:59.848355302Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z    
+2024-06-28T06:57:59.849420461Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z    
+2024-06-28T06:57:59.849632318Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z    
+2024-06-28T06:57:59.850256011Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z    
+2024-06-28T06:57:59.851176571Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z    
+2024-06-28T06:57:59.851282083Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z    
+2024-06-28T06:57:59.861204384Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:57:59.870706223Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:57:59.871128561Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z    
+2024-06-28T06:57:59.873070066Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z    
+2024-06-28T06:57:59.873639254Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z    
+2024-06-28T06:57:59.87435525Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z    
+2024-06-28T06:57:59.875166131Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z    
+2024-06-28T06:57:59.875437786Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z    
+2024-06-28T06:57:59.87635072Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z    
+2024-06-28T06:57:59.876695799Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z    
+2024-06-28T06:57:59.899507188Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:57:59.91869526Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:57:59.919691703Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z    
+2024-06-28T06:57:59.921439854Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z    
+2024-06-28T06:57:59.921534864Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z    
+2024-06-28T06:57:59.926479534Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z    
+2024-06-28T06:57:59.927190654Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z    
+2024-06-28T06:57:59.92839637Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z    
+2024-06-28T06:57:59.928785538Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z    
+2024-06-28T06:57:59.92942315Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z    
+2024-06-28T06:57:59.94435017Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:57:59.955796181Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:57:59.95663269Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z    
+2024-06-28T06:57:59.95781307Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z    
+2024-06-28T06:57:59.958986657Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z    
+2024-06-28T06:57:59.96043415Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z    
+2024-06-28T06:57:59.961362836Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z    
+2024-06-28T06:57:59.962189469Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z    
+2024-06-28T06:57:59.96403063Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z    
+2024-06-28T06:57:59.965549172Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z    
+2024-06-28T06:57:59.978127683Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:57:59.988256299Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:57:59.988788899Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z    
+2024-06-28T06:57:59.989438971Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z    
+2024-06-28T06:57:59.990002325Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z    
+2024-06-28T06:57:59.990309567Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z    
+2024-06-28T06:57:59.990652271Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z    
+2024-06-28T06:57:59.990721779Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z    
+2024-06-28T06:57:59.991016436Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z    
+2024-06-28T06:57:59.992456428Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z    
+2024-06-28T06:58:00.009688781Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.018013777Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.018504956Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z    
+2024-06-28T06:58:00.019068767Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z    
+2024-06-28T06:58:00.019458477Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z    
+2024-06-28T06:58:00.01973309Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z    
+2024-06-28T06:58:00.020557806Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z    
+2024-06-28T06:58:00.021106283Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z    
+2024-06-28T06:58:00.022051803Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z    
+2024-06-28T06:58:00.022480975Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z    
+2024-06-28T06:58:00.037623094Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.0476344Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.049084975Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z    
+2024-06-28T06:58:00.049517023Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z    
+2024-06-28T06:58:00.049844142Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z    
+2024-06-28T06:58:00.050330279Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z    
+2024-06-28T06:58:00.050403412Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z    
+2024-06-28T06:58:00.050632145Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z    
+2024-06-28T06:58:00.050692985Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z    
+2024-06-28T06:58:00.051651715Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z    
+2024-06-28T06:58:00.063509182Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.071548688Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.072642642Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z    
+2024-06-28T06:58:00.0734794Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z    
+2024-06-28T06:58:00.074137931Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z    
+2024-06-28T06:58:00.075032862Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z    
+2024-06-28T06:58:00.075481036Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z    
+2024-06-28T06:58:00.075840201Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z    
+2024-06-28T06:58:00.07647502Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z    
+2024-06-28T06:58:00.07893729Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z    
+2024-06-28T06:58:00.088373366Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.097267883Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.098709916Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z    
+2024-06-28T06:58:00.099301356Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z    
+2024-06-28T06:58:00.099995516Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z    
+2024-06-28T06:58:00.101097428Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z    
+2024-06-28T06:58:00.101198564Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z    
+2024-06-28T06:58:00.10149193Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z    
+2024-06-28T06:58:00.102459786Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z    
+2024-06-28T06:58:00.102908168Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z    
+2024-06-28T06:58:00.114810724Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.125593072Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.12803659Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z    
+2024-06-28T06:58:00.128251572Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z    
+2024-06-28T06:58:00.129674645Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z    
+2024-06-28T06:58:00.130182992Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z    
+2024-06-28T06:58:00.131536516Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z    
+2024-06-28T06:58:00.132025236Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z    
+2024-06-28T06:58:00.133108605Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z    
+2024-06-28T06:58:00.133453268Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z    
+2024-06-28T06:58:00.143745021Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.152787221Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.153153344Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z    
+2024-06-28T06:58:00.15343725Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z    
+2024-06-28T06:58:00.154200126Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z    
+2024-06-28T06:58:00.155064096Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z    
+2024-06-28T06:58:00.155709791Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z    
+2024-06-28T06:58:00.156263685Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z    
+2024-06-28T06:58:00.157334761Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z    
+2024-06-28T06:58:00.158046089Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z    
+2024-06-28T06:58:00.170780819Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.179860023Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.180691864Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z    
+2024-06-28T06:58:00.182653162Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z    
+2024-06-28T06:58:00.182952862Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z    
+2024-06-28T06:58:00.184131199Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z    
+2024-06-28T06:58:00.184405313Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z    
+2024-06-28T06:58:00.184851403Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z    
+2024-06-28T06:58:00.18525053Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z    
+2024-06-28T06:58:00.185744751Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z    
+2024-06-28T06:58:00.197200966Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.205680312Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.20670605Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z    
+2024-06-28T06:58:00.207275779Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z    
+2024-06-28T06:58:00.207942768Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z    
+2024-06-28T06:58:00.209813599Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z    
+2024-06-28T06:58:00.213003948Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z    
+2024-06-28T06:58:00.214145282Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z    
+2024-06-28T06:58:00.214232666Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z    
+2024-06-28T06:58:00.215764084Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z    
+2024-06-28T06:58:00.232116836Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.242088679Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.242708039Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z    
+2024-06-28T06:58:00.24422158Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z    
+2024-06-28T06:58:00.244928615Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z    
+2024-06-28T06:58:00.245395583Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z    
+2024-06-28T06:58:00.247071517Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z    
+2024-06-28T06:58:00.24859185Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z    
+2024-06-28T06:58:00.250163481Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z    
+2024-06-28T06:58:00.251549591Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z    
+2024-06-28T06:58:00.265475993Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.274861564Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.275347367Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z    
+2024-06-28T06:58:00.276354895Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z    
+2024-06-28T06:58:00.277243367Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z    
+2024-06-28T06:58:00.277712752Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z    
+2024-06-28T06:58:00.278752199Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z    
+2024-06-28T06:58:00.279582749Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z    
+2024-06-28T06:58:00.28029591Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z    
+2024-06-28T06:58:00.280972484Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z    
+2024-06-28T06:58:00.292372734Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.305548262Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.306323806Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z    
+2024-06-28T06:58:00.307785633Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z    
+2024-06-28T06:58:00.308712943Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z    
+2024-06-28T06:58:00.310131515Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z    
+2024-06-28T06:58:00.311671142Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z    
+2024-06-28T06:58:00.312499066Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z    
+2024-06-28T06:58:00.313004788Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z    
+2024-06-28T06:58:00.314163832Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z    
+2024-06-28T06:58:00.316710153Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:00.318643198Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:00.333077072Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.346151423Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:00.34622068Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:00.409615714Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.434203035Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z    
+2024-06-28T06:58:00.435614357Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z    
+2024-06-28T06:58:00.437647121Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z    
+2024-06-28T06:58:00.439468279Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z    
+2024-06-28T06:58:00.439859864Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:00.440291495Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z    
+2024-06-28T06:58:00.44119301Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z    
+2024-06-28T06:58:00.442587288Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z    
+2024-06-28T06:58:00.443146349Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z    
+2024-06-28T06:58:00.458993545Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.46805283Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:00.468083959Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:00.470298285Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.470482638Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z    
+2024-06-28T06:58:00.470780213Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z    
+2024-06-28T06:58:00.471022489Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z    
+2024-06-28T06:58:00.532125439Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z    
+2024-06-28T06:58:00.53807805Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z    
+2024-06-28T06:58:00.538681241Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z    
+2024-06-28T06:58:00.540577449Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z    
+2024-06-28T06:58:00.540673709Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:00.541447544Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z    
+2024-06-28T06:58:00.550100743Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.558111872Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.558463202Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z    
+2024-06-28T06:58:00.559488647Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z    
+2024-06-28T06:58:00.560015039Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z    
+2024-06-28T06:58:00.560844463Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z    
+2024-06-28T06:58:00.561424651Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z    
+2024-06-28T06:58:00.562048261Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z    
+2024-06-28T06:58:00.56249506Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z    
+2024-06-28T06:58:00.562856642Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z    
+2024-06-28T06:58:00.575406226Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.583233376Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.583814065Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z    
+2024-06-28T06:58:00.584587191Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z    
+2024-06-28T06:58:00.585109748Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z    
+2024-06-28T06:58:00.585245513Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z    
+2024-06-28T06:58:00.585611303Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z    
+2024-06-28T06:58:00.586163447Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z    
+2024-06-28T06:58:00.586510569Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z    
+2024-06-28T06:58:00.586852356Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z    
+2024-06-28T06:58:00.59770988Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.608032012Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.608465559Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z    
+2024-06-28T06:58:00.609121465Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z    
+2024-06-28T06:58:00.6110438Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z    
+2024-06-28T06:58:00.611361168Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z    
+2024-06-28T06:58:00.611471389Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z    
+2024-06-28T06:58:00.611796716Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z    
+2024-06-28T06:58:00.61223739Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z    
+2024-06-28T06:58:00.613129862Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z    
+2024-06-28T06:58:00.614794587Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:00.628956014Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.637759521Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.638708084Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z    
+2024-06-28T06:58:00.639845958Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z    
+2024-06-28T06:58:00.641040298Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z    
+2024-06-28T06:58:00.642423699Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z    
+2024-06-28T06:58:00.642991553Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z    
+2024-06-28T06:58:00.644311156Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z    
+2024-06-28T06:58:00.645600798Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z    
+2024-06-28T06:58:00.646200863Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z    
+2024-06-28T06:58:00.648575791Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:00.649089972Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:00.730328421Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.732610171Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:00.742618727Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.743620837Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z    
+2024-06-28T06:58:00.744112474Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z    
+2024-06-28T06:58:00.744241947Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z    
+2024-06-28T06:58:00.744525853Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z    
+2024-06-28T06:58:00.745040909Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z    
+2024-06-28T06:58:00.745101541Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z    
+2024-06-28T06:58:00.745137295Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z    
+2024-06-28T06:58:00.74517159Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z    
+2024-06-28T06:58:00.75473218Z  INFO tedge_agent::operation_workflows::actor: Moving software_list operation to state: scheduled    
+2024-06-28T06:58:00.763158854Z  INFO tedge_api::workflow::log::command_log: => moving to software_list @ scheduled    
+2024-06-28T06:58:00.763347041Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z    
+2024-06-28T06:58:00.764782032Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z    
+2024-06-28T06:58:00.765578328Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z    
+2024-06-28T06:58:00.765790143Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z    
+2024-06-28T06:58:00.766823006Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z    
+2024-06-28T06:58:00.767252261Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z    
+2024-06-28T06:58:00.767343605Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z    
+2024-06-28T06:58:00.76740457Z ERROR tedge_agent::operation_workflows::actor: software_list operation request cannot be processed: Two concurrent requests are under execution on the same topic: te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z    
+2024-06-28T06:58:00.76748712Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:00.768073476Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:00.76825858Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:00.768315003Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:00.768436141Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:00.768524067Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:00.76857874Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:00.768689586Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:00.769281484Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:00.770147745Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:00.770324431Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:00.770461071Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:00.780757242Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:00.780773369Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:00.877765754Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:00.885386256Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:00.908659224Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:00.910686238Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.000058996Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.003830908Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:01.020629033Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:01.020644159Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.096833723Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.101762719Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:01.114595661Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:01.114611288Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.181614433Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.199090215Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:01.204555728Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:01.204572479Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.278708277Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.293258407Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:01.294613805Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:01.299331944Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:01.299382533Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.376060109Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.391225513Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:01.398758585Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:01.398779713Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.472206475Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.485057336Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:01.486558249Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:01.492165444Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:01.49218928Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.571843305Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.578374143Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:01.593525671Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:01.593551758Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.679020751Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.685975926Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:01.696549288Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:01.696571082Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.768768919Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.773847806Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:01.788299967Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:01.788351972Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.866109999Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.883553819Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:01.89303177Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:01.893063315Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.979705061Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:01.99671025Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:01.997075165Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:02.003998002Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:02.004013587Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.085454972Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.092432605Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:02.105289835Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:02.105311212Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.207603654Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.214387807Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation scheduled step    
+2024-06-28T06:58:02.230786046Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:02.230819258Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.318262629Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.323929952Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:02.32395683Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.408461215Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.429630556Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:02.437674054Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:02.437694515Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.441211397Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:02.519386053Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.519442725Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:02.519444517Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.608553902Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.608562278Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:02.623195076Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:02.632429203Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:02.632450164Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.719835695Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.719613963Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:02.733565394Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:02.747694762Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:02.749488999Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:02.749509584Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.836483987Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.836969248Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:02.853365029Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:02.86201526Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:02.862039137Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.923774341Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:02.943069895Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:02.952895545Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:02.963248253Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:02.96431116Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:02.964319786Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.040724687Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.040975048Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:03.043798186Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:03.043809354Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.116531671Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.119909661Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:03.135356247Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:03.143671354Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:03.143689815Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.225838776Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:03.226061967Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.239050287Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:03.246606395Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:03.246631106Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.305308447Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:03.32665017Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.332650069Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:03.345627596Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:03.354139349Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:03.354153601Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.357574637Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:03.436567716Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.438352117Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:03.438358618Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.518973205Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.524937558Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:03.524964769Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.617151606Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.624190325Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:03.624209744Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.728035048Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.735514898Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:03.735540984Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.818858238Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.826226868Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:03.826264163Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.91086464Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:03.918230686Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:03.918254855Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.006556811Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.013477722Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:04.013494849Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.099086096Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.106658244Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:04.106687289Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.193063411Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.20065702Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:04.200683731Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.286722484Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.293787536Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:04.293806121Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.375180206Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.380674964Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:04.3807008Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.456720476Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.48395378Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:04.493920393Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:04.494192964Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:04.494196339Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.576630997Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:04.576630247Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.585156539Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:04.585389147Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:04.585399648Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.665131181Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.665157768Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:04.680214679Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:04.680620597Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:04.680629848Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.769771227Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:04.769864987Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.777905643Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:04.778121708Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:04.778134251Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.856853468Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.856863885Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:04.868293865Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:04.86861019Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:04.868616108Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.951969697Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:04.951968405Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:04.960320512Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:04.960556079Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:04.960566622Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:05.037815536Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:05.037852164Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:05.046288567Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:05.046614394Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:05.046657565Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:05.136240528Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:05.13623907Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:05.144050739Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:05.144384858Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:05.144406486Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:05.241599888Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:05.242177825Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:05.251582665Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:05.251855777Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:05.251861653Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:05.330473442Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:05.331333659Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:05.341069367Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:05.341340146Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:05.341343272Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:05.429408489Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:05.429416281Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:05.436524334Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:05.436777903Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:05.436787362Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:05.508431322Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:05.509322959Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    
+2024-06-28T06:58:05.517593636Z  INFO tedge_agent::operation_workflows::actor: Processing software_list operation executing step    
+2024-06-28T06:58:05.518088564Z  INFO tedge_agent::software_manager::actor: Checking if tedge got self updated
+2024-06-28T06:58:05.518286085Z  INFO tedge_agent::software_manager::actor: Current running version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:05.596589507Z  INFO tedge_agent::software_manager::actor: Installed binary version: 1.1.2~144+g0b497e6
+2024-06-28T06:58:05.596587715Z  INFO tedge_agent::operation_workflows::actor: Waiting successful software_list operation to be cleared    

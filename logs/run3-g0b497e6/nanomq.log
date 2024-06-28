@@ -1,0 +1,5 @@
+NanoMQ Broker is started successfully!
+2024-06-28 06:58:50 [580] WARN  /work/nng/src/sp/transport/mqtt/broker_tcp.c:679 tcptran_pipe_recv_cb: nni aio recv error!! Connection shutdown
+
+2024-06-28 06:58:50 [580] WARN  /work/nng/src/sp/transport/mqtt/broker_tcp.c:948 tcptran_pipe_recv_cb: tcptran_pipe_recv_cb: recv_error rv: 139
+

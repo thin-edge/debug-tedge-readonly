@@ -1,0 +1,68 @@
+2024-06-28T06:57:59.52048272Z  INFO Runtime: Started    
+2024-06-28T06:57:59.523079798Z  INFO Runtime: Running Signal-Handler-0    
+2024-06-28T06:57:59.523108009Z  INFO Runtime: Running HealthMonitorActor-1    
+2024-06-28T06:57:59.543582015Z  INFO Runtime: Running MQTT-Bridge-2    
+2024-06-28T06:57:59.543616185Z  INFO Runtime: Actor has finished: MQTT-Bridge-2    
+2024-06-28T06:57:59.54620022Z  INFO tedge_mqtt_bridge::health: MQTT bridge connected to local broker    
+2024-06-28T06:57:59.546220597Z  INFO tedge_mqtt_bridge: Bridge cloud connection "local" subscribing to [Filter = c8y/s/ut/#, Qos = AtLeastOnce, Filter = c8y/s/us, Qos = AtLeastOnce, Filter = c8y/s/us/#, Qos = AtLeastOnce, Filter = c8y/t/us/#, Qos = AtLeastOnce, Filter = c8y/q/us/#, Qos = AtLeastOnce, Filter = c8y/c/us/#, Qos = AtLeastOnce, Filter = c8y/s/uc/#, Qos = AtLeastOnce, Filter = c8y/t/uc/#, Qos = AtLeastOnce, Filter = c8y/q/uc/#, Qos = AtLeastOnce, Filter = c8y/c/uc/#, Qos = AtLeastOnce, Filter = c8y/inventory/managedObjects/update/#, Qos = AtLeastOnce, Filter = c8y/measurement/measurements/create/#, Qos = AtLeastOnce, Filter = c8y/event/events/create/#, Qos = AtLeastOnce, Filter = c8y/alarm/alarms/create/#, Qos = AtLeastOnce, Filter = c8y/s/uat, Qos = AtLeastOnce]
+2024-06-28T06:57:59.549992096Z  INFO MQTT sub: te/device/main/service/tedge-mapper-c8y/cmd/health/check
+2024-06-28T06:57:59.550011307Z  INFO MQTT sub: te/device/main///cmd/health/check
+2024-06-28T06:57:59.55001289Z  INFO MQTT sub: c8y-internal/alarms/+/+/+/+/+/a/+
+2024-06-28T06:57:59.550014057Z  INFO MQTT sub: c8y/s/ds
+2024-06-28T06:57:59.550015099Z  INFO MQTT sub: c8y/devicecontrol/notifications
+2024-06-28T06:57:59.550016224Z  INFO MQTT sub: te/+/+/+/+/cmd/restart/+
+2024-06-28T06:57:59.550017099Z  INFO MQTT sub: te/+/+/+/+/cmd/restart
+2024-06-28T06:57:59.550017974Z  INFO MQTT sub: te/+/+/+/+/cmd/software_list/+
+2024-06-28T06:57:59.550018891Z  INFO MQTT sub: te/+/+/+/+/cmd/software_list
+2024-06-28T06:57:59.550019766Z  INFO MQTT sub: te/+/+/+/+/cmd/software_update/+
+2024-06-28T06:57:59.550020599Z  INFO MQTT sub: te/+/+/+/+/cmd/software_update
+2024-06-28T06:57:59.550021516Z  INFO MQTT sub: te/+/+/+/+/cmd/log_upload/+
+2024-06-28T06:57:59.550022391Z  INFO MQTT sub: te/+/+/+/+/cmd/log_upload
+2024-06-28T06:57:59.550023266Z  INFO MQTT sub: te/+/+/+/+/cmd/config_snapshot/+
+2024-06-28T06:57:59.550024141Z  INFO MQTT sub: te/+/+/+/+/cmd/config_snapshot
+2024-06-28T06:57:59.550025058Z  INFO MQTT sub: te/+/+/+/+/cmd/config_update/+
+2024-06-28T06:57:59.550025933Z  INFO MQTT sub: te/+/+/+/+/cmd/config_update
+2024-06-28T06:57:59.550026808Z  INFO MQTT sub: te/+/+/+/+
+2024-06-28T06:57:59.550027725Z  INFO MQTT sub: te/+/+/+/+/twin/+
+2024-06-28T06:57:59.5500286Z  INFO MQTT sub: te/+/+/+/+/m/+
+2024-06-28T06:57:59.550029559Z  INFO MQTT sub: te/+/+/+/+/e/+
+2024-06-28T06:57:59.550030475Z  INFO MQTT sub: te/+/+/+/+/a/+
+2024-06-28T06:57:59.55003135Z  INFO MQTT sub: te/+/+/+/+/status/health
+2024-06-28T06:57:59.550032267Z  INFO MQTT sub: tedge/commands/res/control/restart
+2024-06-28T06:57:59.550033184Z  INFO MQTT sub: tedge/commands/res/software/list
+2024-06-28T06:57:59.550034059Z  INFO MQTT sub: tedge/commands/res/software/update
+2024-06-28T06:57:59.550037184Z  WARN MQTT sub: ignoring overlapping subscription to te/device/main///cmd/restart/+
+2024-06-28T06:57:59.550044018Z  WARN MQTT sub: ignoring overlapping subscription to te/device/main///cmd/software_list/+
+2024-06-28T06:57:59.55004506Z  WARN MQTT sub: ignoring overlapping subscription to te/device/main///cmd/software_update/+
+2024-06-28T06:57:59.5501024Z  INFO Runtime: Running MQTT-3    
+2024-06-28T06:57:59.550115276Z  INFO Runtime: Running C8YJwtRetriever-4    
+2024-06-28T06:57:59.55011961Z  INFO Runtime: Running HTTP-5    
+2024-06-28T06:57:59.550127694Z  INFO Runtime: Running C8Y-REST-6    
+2024-06-28T06:57:59.550130986Z  INFO Runtime: Running C8yAuthProxy-7    
+2024-06-28T06:57:59.550164073Z  INFO mqtt_channel::connection: MQTT connecting to broker: host=127.0.0.1:1883, session_name=Some("tedge-mapper-c8y")    
+2024-06-28T06:57:59.550204744Z  INFO Runtime: Running FsWatcher-8    
+2024-06-28T06:57:59.550219663Z  INFO Runtime: Running Timer-9    
+2024-06-28T06:57:59.55064796Z  INFO C8Y-REST: start initialisation    
+2024-06-28T06:57:59.550943868Z  INFO mqtt_channel::connection: MQTT connecting to broker: host=127.0.0.1:1883, session_name=None    
+2024-06-28T06:57:59.551293114Z  INFO HTTP Server: Cumulocity proxy has HTTPS disabled (configured in `c8y.proxy.cert_path`/`c8y.proxy.key_path`) and certificate authentication disabled (configured in `c8y.proxy.ca_path`)
+2024-06-28T06:57:59.551299573Z  INFO c8y_auth_proxy::server: Launching on port 8001 with HTTP
+2024-06-28T06:57:59.551349329Z  INFO mqtt_channel::connection: MQTT connection established    
+2024-06-28T06:57:59.552451242Z  INFO mqtt_channel::connection: MQTT connection established    
+2024-06-28T06:57:59.564438104Z  INFO tedge_api::entity_store: Loading the entity store from the log    
+2024-06-28T06:57:59.565573938Z  INFO tedge_api::entity_store: Finished loading the entity store from the log    
+2024-06-28T06:57:59.565947187Z  INFO MQTT sub: te/device/main/service/tedge-mapper-bridge-c8y/status/health
+2024-06-28T06:57:59.566141792Z  INFO Runtime: Running CumulocityMapper-10    
+2024-06-28T06:57:59.566173045Z  INFO Runtime: Running MQTT-11    
+2024-06-28T06:57:59.566180005Z  INFO Runtime: Running Uploader-12    
+2024-06-28T06:57:59.566182713Z  INFO Runtime: Running Downloader-13    
+2024-06-28T06:57:59.566185464Z  INFO Runtime: Running OldAgentAdapter-14    
+2024-06-28T06:57:59.566363275Z  INFO mqtt_channel::connection: MQTT connecting to broker: host=127.0.0.1:1883, session_name=Some("last_will_c8y_mapper")    
+2024-06-28T06:57:59.567183407Z  INFO mqtt_channel::connection: MQTT connection established    
+2024-06-28T06:57:59.568293487Z  INFO c8y_mapper_ext::inventory: Could not read inventory fragments from file "/data/etc/tedge/device/inventory.json"
+2024-06-28T06:57:59.573671747Z  INFO c8y_api::http_proxy: JWT token requested
+2024-06-28T06:57:59.720328571Z  INFO tedge_mqtt_bridge::health: MQTT bridge connected to cloud broker    
+2024-06-28T06:57:59.720346782Z  INFO tedge_mqtt_bridge: Bridge cloud connection "cloud" subscribing to [Filter = s/dt, Qos = AtLeastOnce, Filter = s/dat, Qos = AtLeastOnce, Filter = s/ds, Qos = AtLeastOnce, Filter = s/e, Qos = AtLeastOnce, Filter = devicecontrol/notifications, Qos = AtLeastOnce, Filter = error, Qos = AtLeastOnce]
+2024-06-28T06:58:19.575105605Z  INFO c8y_api::http_proxy: JWT token requested
+2024-06-28T06:58:19.606071617Z  INFO c8y_api::http_proxy: JWT token received
+2024-06-28T06:58:19.606427611Z  INFO mqtt_channel::connection: MQTT connection closed    
+2024-06-28T06:58:19.692031585Z  INFO C8Y-REST: initialisation done.    

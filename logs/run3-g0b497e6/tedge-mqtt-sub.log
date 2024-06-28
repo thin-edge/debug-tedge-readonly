@@ -1,0 +1,1724 @@
+INFO: Connected
+[$SYS/brokers/connected] {"username":"(null)", "ts":1719557876405,"proto_name":"MQTT","keepalive":60,"return_code":"0","proto_ver":4,"client_id":"tedge-agent#te/device/main//","clean_start":0, "IPv4":"127.0.0.1"}
+[te/device/main/service/tedge-agent/status/health] {"pid":593,"status":"up","time":1719557876.4074576}
+[te/device/main///cmd/restart] {}
+[te/device/main/service/tedge-agent] {"@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main///cmd/log_upload] {"types":["software-management"]}
+[te/device/main///cmd/config_snapshot] {"types":["tedge-configuration-plugin","tedge-log-plugin","tedge.toml"]}
+[te/device/main///cmd/config_update] {"types":["tedge-configuration-plugin","tedge-log-plugin","tedge.toml"]}
+[te/device/main///cmd/software_list] {"types":[]}
+[te/device/main///cmd/software_update] {"types":[]}
+[$SYS/brokers/connected] {"username":"(null)", "ts":1719557879545,"proto_name":"MQTT","keepalive":60,"return_code":"0","proto_ver":4,"client_id":"tedge-mapper-bridge-c8y","clean_start":0, "IPv4":"127.0.0.1"}
+[$SYS/brokers/connected] {"username":"(null)", "ts":1719557879551,"proto_name":"MQTT","keepalive":60,"return_code":"0","proto_ver":4,"client_id":"yvehhbaxbt","clean_start":1, "IPv4":"127.0.0.1"}
+[$SYS/brokers/connected] {"username":"(null)", "ts":1719557879551,"proto_name":"MQTT","keepalive":60,"return_code":"0","proto_ver":4,"client_id":"tedge-mapper-c8y","clean_start":0, "IPv4":"127.0.0.1"}
+[$SYS/brokers/connected] {"username":"(null)", "ts":1719557879567,"proto_name":"MQTT","keepalive":60,"return_code":"0","proto_ver":4,"client_id":"last_will_c8y_mapper","clean_start":0, "IPv4":"127.0.0.1"}
+[c8y/s/uat] 
+[te/device/main/service/tedge-mapper-c8y] {"@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y/status/health] {"pid":604,"status":"up","time":1719557879.5231214}
+[c8y/inventory/managedObjects/update/tedge_container_ftw] {"c8y_Agent":{"name":"thin-edge.io","url":"https://thin-edge.io","version":"1.1.2~144+g0b497e6"}}
+[te/device/main///twin/c8y_Agent] {"name":"thin-edge.io","url":"https://thin-edge.io","version":"1.1.2~144+g0b497e6"}
+[c8y/s/us] 114,c8y_DownloadConfigFile,c8y_LogfileRequest,c8y_Restart,c8y_SoftwareUpdate,c8y_UploadConfigFile
+[c8y/inventory/managedObjects/update/tedge_container_ftw] {"type":"thin-edge.io"}
+[c8y/s/us] 500
+[te/device/main/service/tedge-mapper-bridge-c8y/status/health] {"status":"up"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.696668965Z.log","status":"scheduled"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.701266971Z.log","status":"scheduled"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.704798569Z.log","status":"scheduled"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] {"status":"init"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] {"status":"init"}
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] {"status":"init"}
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.707914995Z.log","status":"scheduled"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.715061449Z.log","status":"scheduled"}
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.711598443Z.log","status":"scheduled"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.718441113Z.log","status":"scheduled"}
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.72264316Z.log","status":"scheduled"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.727653545Z.log","status":"scheduled"}
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[c8y/s/us] 118,software-management
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.733574031Z.log","status":"scheduled"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.742505515Z.log","status":"scheduled"}
+[c8y/s/us] 118,software-management
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.746395818Z.log","status":"scheduled"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.75516841Z.log","status":"scheduled"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.759569311Z.log","status":"scheduled"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.751644397Z.log","status":"scheduled"}
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.737739823Z.log","status":"scheduled"}
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.765213433Z.log","status":"scheduled"}
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.771191425Z.log","status":"scheduled"}
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.779400621Z.log","status":"scheduled"}
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.786610749Z.log","status":"scheduled"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.79616251Z.log","status":"scheduled"}
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.803963911Z.log","status":"scheduled"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.811124533Z.log","status":"scheduled"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.821093257Z.log","status":"scheduled"}
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[c8y/s/us] 119,tedge-configuration-plugin,tedge-log-plugin,tedge.toml
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.836912958Z.log","status":"scheduled"}
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.83120387Z.log","status":"scheduled"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[te/device/main/service/tedge-agent] {"@id":"tedge_container_ftw:device:main:service:tedge-agent","@parent":"device/main//","@type":"service","type":"service"}
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[te/device/main/service/tedge-mapper-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-c8y","@parent":"device/main//","@type":"service","type":"service"}
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,up
+[te/device/main/service/tedge-mapper-bridge-c8y] {"@id":"tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y","@parent":"device/main//","@type":"service","name":"tedge-mapper-bridge-c8y","type":"service"}
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-bridge-c8y,service,tedge-mapper-bridge-c8y,up
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.696668965Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.701266971Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.704798569Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.707914995Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.711598443Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.715061449Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.718441113Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.72264316Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.727653545Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.733574031Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.742505515Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.746395818Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.751644397Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.75516841Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.737739823Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.759569311Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.765213433Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.771191425Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.779400621Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.786610749Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.79616251Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.803963911Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.811124533Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.821093257Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.83120387Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[tedge/commands/req/software/list] {"id":"c8y-mapper-2024-06-28T06:57:59.836912958Z"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.696668965Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.696668965Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.701266971Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.701266971Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.704798569Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.704798569Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.707914995Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.707914995Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.715061449Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.715061449Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.711598443Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.711598443Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.718441113Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.718441113Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.72264316Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.72264316Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.727653545Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.727653545Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.733574031Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.733574031Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.742505515Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.746395818Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.742505515Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.746395818Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.75516841Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.75516841Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.751644397Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.751644397Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.759569311Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.759569311Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.737739823Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.737739823Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.765213433Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.765213433Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.771191425Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.771191425Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.779400621Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.786610749Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.779400621Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.786610749Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.79616251Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.803963911Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.79616251Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.803963911Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.811124533Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.811124533Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.821093257Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.821093257Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.836912958Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.836912958Z.log","status":"successful"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] {"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.83120387Z.log","status":"executing"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] {"currentSoftwareList":[{"modules":[],"type":""}],"logPath":"/var/log/tedge/agent/workflow-software_list-c8y-mapper-2024-06-28T06:57:59.83120387Z.log","status":"successful"}
+[c8y/s/uat] 
+[c8y/s/dat] 71,<redacted>
+[$SYS/brokers/disconnected] {"username":"(null)","ts":1719557899606,"reason_code":"0","client_id":"yvehhbaxbt","IPv4":"127.0.0.1"}
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.696668965Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.701266971Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.704798569Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.707914995Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.715061449Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.711598443Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.718441113Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.72264316Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.727653545Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.733574031Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.742505515Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.746395818Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.75516841Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.751644397Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.759569311Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.737739823Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.765213433Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.771191425Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.779400621Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.786610749Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.79616251Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.803963911Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.811124533Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.821093257Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.836912958Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main///cmd/software_list/c8y-mapper-2024-06-28T06:57:59.83120387Z] 
+[te/device/main/service/tedge-agent/status/health] {"pid":593,"status":"down"}
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-agent,service,tedge-agent,down
+[c8y/s/us] 102,tedge_container_ftw:device:main:service:tedge-mapper-c8y,service,tedge-mapper-c8y,down
+[te/device/main/service/tedge-mapper-c8y/status/health] {"pid":604,"status":"down"}
+ERROR: Mqtt state: Io error: Custom { kind: ConnectionAborted, error: "connection closed by peer" }
+ERROR: I/O: Connection refused (os error 111)
